@@ -2,33 +2,39 @@
 .topnav {
     background-color: #6d1f09;
     overflow: hidden;
+    height: 300px;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: right;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
-    padding: 50px 50px;
+    padding: 20px 20px;
     text-decoration: none;
     font-size: 25px;
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color:rgb(239, 239, 238);
     color: black;
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: whitesmoke;
-    color: white;
+    background-color: #eee4d0;
+    color: black;
   }
 
   .topnav p {
+    float: left;
+    position: relative;
+    bottom: 25px;
+    padding: 0px 15px;
     color: #f2f2f2;
-    font-size: 100px;
+    text-decoration: none;
+    font-size: 40px;
   }
 
 * { 
@@ -37,7 +43,7 @@
 
 html, body {
 	min-height: 100%;
-	background: #eee4d0;
+	background: whitesmoke;
 	color: #000;
 }
 	/* sets the body height of the browser, so that backgrounds and div heights work correctly. Color and background will almost certainly be altered; they are just placeholders */
